@@ -1,0 +1,292 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.container-fluid{
+    padding: none;
+    margin: 0%;
+}
+.row{
+    padding: 0%;
+    margin: 0%;
+}
+.body{
+    background-color: white;
+
+}
+/*Section-1*/
+.for{
+    background-color: #fff;
+}
+.section-1{
+    
+    font-family: 'Manjari', sans-serif;
+    height: 100%;
+    border-right: 2px solid 3px;
+    position: fixed;
+    padding: 0px;
+    z-index: 1000;
+    margin: 0%;
+
+}
+.google-img{
+   align-content: center;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #fff;
+    
+}
+
+.navi{
+    height: 100%;
+    box-shadow: 4px 4px 2px  rgb(219, 218, 218);
+    width: inherit;
+    position: relative;
+    
+    border-radius: 5px;
+    
+    
+}
+.navi-div{
+    
+    height: 100%;
+    width: 60px;
+    
+    
+}
+.navi-li{
+    padding-top: 20px;
+    margin: 30px;
+    list-style-type: none;
+    font-weight: 400;
+    text-align: left;
+
+}
+.navi-li a{
+    text-decoration: none;
+    color: #000;
+}
+.navi-li a:hover{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #da5c08;
+}
+.nav-li a:active{
+    color:#da5c08;
+}
+
+.navi-btn{
+    padding-top: 270px;
+}
+.navi-btns{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background-color: #000;
+    border: 1px solid #fff;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+    
+}
+.navi-btns:focus{
+    outline: none;
+}
+/*Section-2*/
+.section-2{
+    background-color: #fff;
+    font-family: 'Manjari';
+    border-left: "ccc";
+}
+.nav2{
+    text-align: left;
+    align-content: left;
+    border-top: 1px solid #000;
+    border-bottom: 2px solid;
+    padding-top: 2px;
+   margin-bottom: 3px;
+    
+}
+.nav2-li{
+    display: inline-block;
+    margin: 5px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 3px 3px 1px  rgb(219, 218, 218);
+    border-left: 3px solid;
+    padding: 5px 10px 0px 10px;
+    outline: none;
+    outline-style: none;
+    border-image-outset: 0ch;
+    text-decoration: none;
+}
+.nav1-li:focus{
+    outline: none;
+}
+.nav2-li:focus{
+    outline: none;
+}
+.nav1-li{
+    display: inline-block;
+    margin: 5px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 4px 4px 2px  rgb(219, 218, 218);
+    outline-style: none;
+    
+    outline: none;
+    padding: 5px 10px 0px 10px;
+
+    
+}
+
+
+.input-div{
+    height: 50px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    box-shadow: 4px 4px 4px  rgb(219, 218, 218);
+    padding-top:5px;
+    
+    
+}
+.input-search{
+    
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    border: none;
+    margin-left: 20px;
+    background-color: rgb(240, 240, 240);
+    
+
+}
+input[type=text]:focus{
+    outline: none;
+}
+.input-div img {
+    
+    
+    border: none;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    
+}
+@media(max-width:768px){
+    body{
+        font-size: larger;
+    }
+
+    .input-div img{
+        text-align: center;
+        padding-top: 5px;
+        align-items: center;
+        padding-left: 10px;
+    }
+    .navi-li a:hover{
+        text-decoration: none;
+        font-weight: bolder;
+        color: #da5c08;
+    }
+}
+@media(max-width:990px){
+    body{
+        font-size: x-large;
+    }
+}
+
+.img-div{
+    
+    text-align: center;
+}
+.img-text{
+    margin-top: 10px;
+    text-align: center;
+    width:100%;
+    
+}
+
+.img-text1{
+    
+    padding-bottom: 0%;
+    padding-top: 0%;
+    font-weight: 100;
+    font-size: smaller;
+}
+.img-text1p{
+    text-align: left;
+}
+.img-texth3{
+    width: 80%;
+   
+    text-align: center;
+    align-content: center;
+    
+}
+.card1{
+    width: 260px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px rgb(219, 218, 218);
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 218, 218);
+    z-index: 300;
+    
+}
+.card1 button{
+    text-decoration: none;
+    color: #000;
+    border: none;
+    background-color: white;
+
+}
+.card1 button:focus{
+    
+    outline: none;
+}
+
+.card-img{
+    height: 150px;
+    width: 100px;
+    align-content: center;
+    padding: 10px;
+    
+    
+}
+.card-img1{
+    height: 300px;
+    width: 90%;
+    align-content: center;
+    border: 1px solid black; 
+}
+.card1-txt{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.left-cards{
+    display: grid;
+    grid-template-columns: repeat(7, 260px);
+    grid-template-rows: repeat(4, 400px);
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+    height: 90%;
+    width: 100%;
+    overflow: scroll;
+    cursor: pointer;
+}
+.card-icons{
+    position: absolute;
+    bottom: 0px;
+    right: 2px;
+}
+.card-icons a{
+    text-decoration: none;
+
+}
+.card-icons a:hover{
+    font-size: xx-large;
+}
